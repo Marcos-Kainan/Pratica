@@ -1,7 +1,7 @@
-// na patrica I testei se era possivel a entrada de varios valores para a,b,c e depois imprimir os valores de x1 e x2
+// na pratica II e possivel usar a linha de impressão para mostrar os resultadodo de x1 e x2
 using System;// entrada para uso
 
-class PraticaI{ // main do codigo
+class PraticaII{ // main do codigo
     static double[] zeros(double a, double b, double c){//função zero
         double[] z = new double[2];// declarção para vetor
         double delta = b * b - 4 * a * c; // calculo do delta
@@ -25,9 +25,11 @@ class PraticaI{ // main do codigo
         c = double.Parse(Console.ReadLine()); //entrada de valor via teclado para C
 
         double[] z = zeros(a, b, c); // entrada de valor para a função zeros      
-        for (int i = 0; i < 2; i++)
-        { // condição de repetição para imprimir os valores de z
+        for (int i = 0; i < 2; i++){ // condição de repetição para imprimir os valores de z
+           Console.WriteLine("Resultado:");
+            
             Console.WriteLine(z[i]); // imprime o valor de z 
         }
     }
 }
+// para a primeira tentativa dessa pratica ocorreu um erro
