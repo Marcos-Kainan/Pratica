@@ -32,8 +32,9 @@ class PraticaII{ // main do codigo
 
         double[] z = zeros(a, b, c); // entrada de valor para a função zeros      
         for (int i = 0; i < 2; i++){ // condição de repetição para imprimir os valores de z
-           Console.WriteLine("Resultado:"+ z[i] ); // impressão dos valores de z com texto
+           Console.WriteLine("Resultado:"+ z[i]); // impressão dos valores de z com texto
         }
     }
 }
 // para a primeira tentativa dessa pratica ocorreu um erro
+// para a  segunda tentativa  a prosposta foi realizada
